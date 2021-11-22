@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<title>PR TOURS | HOME</title>
+</head>
+<body>
+	<section class="showcase">
+		<header>
+			<h2 class="logo">PR Tours</h2>
+			<div class="toggle"></div>
+		</header>
+
+		<video src="./video/beach.mp4" muted loop autoplay></video>
+
+		<div class="overlay"></div>
+		<div class="text">
+			<h2>Let's Make</h2>
+			<h3>Your Tour Unforgettable</h3>
+			<p>Our team of tour agents can provide you an unforgettable travel experience taking all your wishes and needs into account</p>
+			<a href="https://www.youtube.com/watch?v=ub82Xb1C8os">Explore</a>
+		</div>
+
+		<ul class="social">
+			<li><a href="https://www.facebook.com/prathamesh.redij.3/"><img src="./images/facebook.png" alt=""></a></li>
+			<li><a href="https://twitter.com/W35573"><img src="./images/twitter.png" alt=""></a></li>
+			<li><a href="https://www.instagram.com/w35573/"><img src="./images/instagram.png" alt=""></a></li>
+		</ul>
+	</section>
+
+	<div class="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="https://www.youtube.com/watch?v=ub82Xb1C8os">News</a></li>
+			<li><a href="https://www.youtube.com/watch?v=ub82Xb1C8os">Destination</a></li>
+			<li><a href="https://www.youtube.com/watch?v=ub82Xb1C8os">Blog</a></li>
+			<li><a href="https://twitter.com/W35573">Contact</a></li>
+		</ul>
+	</div>
+
+	<script type="text/javascript">
+		const menuToggle = document.querySelector('.toggle')
+		const showcase = document.querySelector('.showcase')
+		menuToggle.addEventListener('click', () => {
+			menuToggle.classList.toggle('active')
+			showcase.classList.toggle('active')
+		})
+	</script>
+</body>
+</html>
