@@ -168,6 +168,10 @@
 	color: #111;
 }
 
+.menu ul li a:hover {
+	color: #03a9f4;
+}
+
 @media(max-width: 798px) {
 	.showcase,
 	.showcase header {
